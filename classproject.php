@@ -250,9 +250,24 @@ style="height: 200px;width: 680px; object-fit: none;"></div>
     justify-content: space-between;
     column-gap: 20px;
     row-gap: 40px;">
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightpink; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
+    <div>
+      <img src="Class project onlygames/dragons dogma 2.jpg" style="width: 350px; height: 300px;">
+      <a href="alltitles.php#dragonsD">
+       <p class="game-title">Dragon's Dogma 2</p>
+      </a>
+    </div>
+    <div>
+      <img src="Class project onlygames/outlast trials.jpg" style="width: 350px; height: 300px;">
+      <a href="alltitles.php#outlast">
+        <p class="game-title">The Outlast Trials</p>
+      </a>
+    </div>
+    <div>
+      <img src="Class project onlygames/outcast.jpg" style="width: 350px; height: 300px;">
+      <a href="alltitles.php#outcast">
+        <p class="game-title">Outcast - A New Beginning</p>
+      </a>
+    </div>
     </div>
 </body>
 </html>
