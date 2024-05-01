@@ -108,15 +108,6 @@ background-color: #115191;
   cursor: pointer;
   opacity: 0.8;
 }
-.search-bar{
-  border-radius: 2px;
-  border-color: rgb(193, 193, 193);
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  width: 150px;
-  flex: 1;
-  padding-left: 10px;
-  font-size: 16px;
-}
 </style>
 
 <body class="body">
@@ -126,7 +117,9 @@ background-color: #115191;
       <a href="alltitles.php">
         <p class="hover-words" style="margin-bottom: 70px; border-bottom-style: solid; border-bottom-width: 1px;">All titles</p>
       </a>
-      <p class="hover-words" style="margin-bottom: 70px; border-bottom-style: solid; border-bottom-width: 1px;">Friends</p>
+      <a href="Databases.php">
+      <p class="hover-words" style="margin-bottom: 70px; border-bottom-style: solid; border-bottom-width: 1px; font-size: 17px;">Databases</p>
+      </a>
       <a href="developers.php">
         <p class="hover-words" style="margin-bottom: 70px; border-bottom-style: solid; border-bottom-width: 1px; font-size: 16px;">Developers</p>
       </a>
@@ -149,7 +142,6 @@ style="height: 200px;width: 680px; object-fit: none;"></div>
 <a href="#trending">Trending</a>
 <a href="#upcoming">Upcoming</a>
 <a href="#New">New</a>
-<input class="search-bar" type="text" placeholder="Search">
 </div>
 <p class="recommended" id="recommend">
   RECOMMENDED
