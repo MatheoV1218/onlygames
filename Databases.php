@@ -96,49 +96,49 @@
     </div>
 
     <div class="table-container">
-      <table class="table table-bordered">
+    <table class="table table-bordered">
         <thead>
-          <tr>
-            <th>Name</th>
-            <th>Location</th>
-            <th>Website</th>
-          </tr>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Website</th>
+            </tr>
         </thead>
         <tbody>
-          <?php 
+            <?php 
             $conn = mysqli_connect('127.0.0.1:3377', 'root', '', 'myfirstdatabase');
             if (isset($_GET['developer_search']))
             {
-              $filtervalues = $_GET['developer_search'];
-              $query = "SELECT * from developer WHERE CONCAT(name, location, website) LIKE '%$filtervalues%'";
-              $query_run = mysqli_query($conn, $query);
-              if(mysqli_num_rows($query_run) > 0)
-              {
-                foreach($query_run as $items)
+                $filtervalues = $_GET['developer_search'];
+                $query = "SELECT * from developer WHERE CONCAT(name, location, website) LIKE '%$filtervalues%'";
+                $query_run = mysqli_query($conn, $query);
+                if(mysqli_num_rows($query_run) > 0)
                 {
-                  ?>
-                  <tr>
-                    <td><?= $items['name'] ?></td>
-                    <td><?= $items['location'] ?></td>
-                    <td><?= $items['website'] ?></td>
-                  </tr>
-                  <?php
+                    foreach($query_run as $items)
+                    {
+                        ?>
+                        <tr>
+                            <td><?= $items['name'] ?></td>
+                            <td><?= $items['location'] ?></td>
+                            <td><a href="<?= $items['website'] ?>" target="_blank"><?= $items['website'] ?></a></td>
+                        </tr>
+                        <?php
+                    }
                 }
-              }
-              else
-              {
-                ?>
-                <tr>
-                  <td colspan="3" class="no-records">No records found</td>
-                </tr>
-                <?php
-              }
+                else
+                {
+                    ?>
+                    <tr>
+                        <td colspan="3" class="no-records">No records found</td>
+                    </tr>
+                    <?php
+                }
             }
-          ?>
+            ?>
         </tbody>
-      </table>
-    </div>
-  </div>
+    </table>
+</div>
+
 
 
 
@@ -205,7 +205,7 @@
     <div class="search-container">
       <div class="search-form">
         <form action="" method="GET">
-          <input type="text" name="game_search" value="<?php if(isset($_GET['game_search'])) {echo $_GET['game_search'];} ?>" class="search-input" placeholder="Search entertainers">
+          <input type="text" name="game_search" value="<?php if(isset($_GET['game_search'])) {echo $_GET['game_search'];} ?>" class="search-input" placeholder="Search games">
           <button type="submit" class="search-btn">Search</button>
         </form>
       </div>
@@ -264,7 +264,7 @@
     <div class="search-container">
       <div class="search-form">
         <form action="" method="GET">
-          <input type="text" name="esport_search" value="<?php if(isset($_GET['esport_search'])) {echo $_GET['esport_search'];} ?>" class="search-input" placeholder="Search entertainers">
+          <input type="text" name="esport_search" value="<?php if(isset($_GET['esport_search'])) {echo $_GET['esport_search'];} ?>" class="search-input" placeholder="Search teams">
           <button type="submit" class="search-btn">Search</button>
         </form>
       </div>
@@ -319,7 +319,7 @@
     <div class="search-container">
       <div class="search-form">
         <form action="" method="GET">
-          <input type="text" name="platform_search" value="<?php if(isset($_GET['platform_search'])) {echo $_GET['platform_search'];} ?>" class="search-input" placeholder="Search entertainers">
+          <input type="text" name="platform_search" value="<?php if(isset($_GET['platform_search'])) {echo $_GET['platform_search'];} ?>" class="search-input" placeholder="Search platforms">
           <button type="submit" class="search-btn">Search</button>
         </form>
       </div>
