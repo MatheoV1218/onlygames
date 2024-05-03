@@ -32,6 +32,13 @@
   </style>
   <head></head>
   <body>
+    <div>
+      <a href="classproject.php#home">
+        <button class="click">
+        <img src="Class project onlygames/left arrow.png" style="width: 50px; height: 50px;">
+        </button>
+      </a>
+    </div>
   <div>
       <p class="esports">
         E-Sports teams
@@ -88,6 +95,98 @@
         <div>
           <img src="Class project onlygames/esports/tsm.jpg" style="width: 350px; height: 300px;">\
            <p class="game-title">TSM</p>
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;">
+         <div>
+          <img src="Class project onlygames/esports/nrg.jpg" style="width: 350px; height: 300px;">
+           <p class="game-title">NRG</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/cloud 9.jpg" style="width: 350px; height: 300px;">
+            <p class="game-title">Cloud 9</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/optic.jpg" style="width: 350px; height: 300px;">\
+           <p class="game-title">Optic Gaming</p>
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;">
+         <div>
+          <img src="Class project onlygames/esports/vitality.jpg" style="width: 350px; height: 300px;">
+           <p class="game-title">Team Vitality</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/g2.jpg" style="width: 350px; height: 300px;">
+            <p class="game-title"> G2</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/secret.jpg" style="width: 350px; height: 300px;">\
+           <p class="game-title">Team Secret</p>
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;">
+         <div>
+          <img src="Class project onlygames/esports/100thieves.jpg" style="width: 350px; height: 300px;">
+           <p class="game-title">100 Thieves</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/eveligenuises.jpg" style="width: 350px; height: 300px;">
+            <p class="game-title">Evil Geniuses</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/astralis.jpg" style="width: 350px; height: 300px;">\
+           <p class="game-title">Astralis</p>
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;">
+         <div>
+          <img src="Class project onlygames/esports/team spirit.jpg" style="width: 350px; height: 300px;">
+           <p class="game-title">Team Spirit</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/ldg.jpg" style="width: 350px; height: 300px;">
+            <p class="game-title">LDG Gaming</p>
+        </div>
+        <div>
+          <img src="Class project onlygames/esports/furia.jpg" style="width: 350px; height: 300px;">\
+           <p class="game-title">Furia</p>
         </div>
     </div>
   </body>
