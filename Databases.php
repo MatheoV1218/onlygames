@@ -83,6 +83,13 @@
   </style>
 </head>
 <body>
+    <div>
+      <a href="classproject.php#home">
+        <button class="click">
+        <img src="Class project onlygames/left arrow.png" style="width: 50px; height: 50px;">
+        </button>
+      </a>
+    </div>
   <div class="container">
     <div class="title">Developers database</div>
     
@@ -259,6 +266,68 @@
   </div>
 
   <div class="container">
+    <div class="title">Game Price database</div>
+    
+    <div class="search-container">
+        <div class="search-form">
+            <form action="" method="GET">
+                <input type="text" name="min_price" value="<?php if(isset($_GET['min_price'])) {echo $_GET['min_price'];} ?>" class="search-input" placeholder="Min Price">
+                <input type="text" name="max_price" value="<?php if(isset($_GET['max_price'])) {echo $_GET['max_price'];} ?>" class="search-input" placeholder="Max Price">
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Release date</th>
+                    <th>Price</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php 
+                $conn = mysqli_connect('127.0.0.1:3377', 'root', '', 'myfirstdatabase');
+                if (isset($_GET['min_price']) && isset($_GET['max_price']))
+                {
+                    $min_price = $_GET['min_price'];
+                    $max_price = $_GET['max_price'];
+                    $query = "SELECT * FROM game WHERE base_price BETWEEN $min_price AND $max_price";
+                    $query_run = mysqli_query($conn, $query);
+                    if(mysqli_num_rows($query_run) > 0)
+                    {
+                        foreach($query_run as $items)
+                        {
+                            ?>
+                            <tr>
+                                <td><?= $items['title'] ?></td>
+                                <td><?= $items['release_date'] ?></td>
+                                <td><?= $items['base_price'] ?></td>
+                                <td><?= $items['genre'] ?></td>
+                            </tr>
+                            <?php
+                        }
+                    }
+                    else
+                    {
+                        ?>
+                        <tr>
+                            <td colspan="4" class="no-records">No records found</td>
+                        </tr>
+                        <?php
+                    }
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+  <div class="container">
     <div class="title">E-Sports database</div>
     
     <div class="search-container">
@@ -351,7 +420,7 @@
                   ?>
                   <tr>
                     <td><?= $items['console'] ?></td>
-                    <td><?= $items['max_res'] ?></td>
+                    <td><?= $items['max_fps'] ?></td>
                     <td><?= $items['price'] ?></td>
                     <td><?= $items['max_res'] ?></td>
                     <td><?= $items['release_date'] ?></td>
