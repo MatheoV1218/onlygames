@@ -31,6 +31,13 @@
   </style>
   <head></head>
   <body>
+    <div>
+      <a href="classproject.php#home">
+        <button class="click">
+        <img src="Class project onlygames/left arrow.png" style="width: 50px; height: 50px;">
+        </button>
+      </a>
+    </div>
   <div>
     <p class="alltitles">
       All titles
