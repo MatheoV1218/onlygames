@@ -59,15 +59,15 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/11bit.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">11 Bit Studios</p>
     </div>
     <div>
-      <img src="Class project onlygames/GOW rag.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/343industries.jpg" style="width: 350px; height: 300px;">
        <p class="game-title">343 Industries</p>
     </div>
     <div>
-      <img src="Class project onlygames/palworld.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/activision.jpg" style="width: 350px; height: 300px;">
        <p class="game-title">Activision</p>
     </div>
    
@@ -83,15 +83,15 @@
     column-gap: 20px;
     row-gap: 40px;">
          <div>
-          <img src="Class project onlygames/fortnite.jpg" style="width: 350px; height: 300px;">
+          <img src="Class project onlygames/arrowhead.jpg" style="width: 350px; height: 300px;">
            <p class="game-title">Arrowhead Game Studios</p>
         </div>
         <div>
-          <img src="Class project onlygames/helldivers 2.jpg" style="width: 350px; height: 300px;">
+          <img src="Class project onlygames/bandai.jpg" style="width: 350px; height: 300px;">
             <p class="game-title">Bandai Namco Studios</p>
         </div>
         <div>
-          <img src="Class project onlygames/sea of thieves.jpg" style="width: 350px; height: 300px;">\
+          <img src="Class project onlygames/bluepoint.jpg" style="width: 350px; height: 300px;">\
            <p class="game-title">Bluepoint Games</p>
         </div>
     </div>
@@ -105,37 +105,15 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/epicgames.jpg" style="width: 350px; height: 300px;">
        <p class="game-title">Epic Games</p>
     </div>
     <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/fromsoftware.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">FromSoftware</p>
     </div>
     <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
-        <p class="game-title">Games Workshop</p>
-    </div>
-    </div>
-    <div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
-       <p class="game-title">Epic Games</p>
-    </div>
-    <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
-        <p class="game-title">FromSoftware</p>
-    </div>
-    <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/gamesworkshop.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Games Workshop</p>
     </div>
     </div>
@@ -150,15 +128,15 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/rare.jpg" style="width: 350px; height: 300px;">
        <p class="game-title">Rare</p>
     </div>
     <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/rockstar.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Rockstar Games</p>
     </div>
     <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/santamonica.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Santa Monica Studio</p>
     </div>
     </div>
@@ -173,15 +151,15 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/insomniac.jpg" style="width: 350px; height: 300px;">
        <p class="game-title">Insomniac Games</p>
     </div>
     <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/larian.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Larian Studios</p>
     </div>
     <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/pocketpair.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Pocket Pair</p>
     </div>
     </div>
@@ -196,15 +174,15 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/shiftup.jpg" style="width: 350px; height: 300px;">
        <p class="game-title">Shift Up</p>
     </div>
     <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/ubisoft.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Ubisoft</p>
     </div>
     <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
+      <img src="Class project onlygames/valve.jpg" style="width: 350px; height: 300px;">
         <p class="game-title">Valve Corporation</p>
     </div>
     </div>
