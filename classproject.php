@@ -93,7 +93,7 @@ margin: 0 auto;
   background-color: #115191;
   width: 72px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .body{
   padding-left: 80px;
@@ -131,9 +131,6 @@ background-color: #115191;
       </a>
       <a href="platforms.php">
       <p class="hover-words" style="margin-bottom: 70px; border-bottom-style: solid; border-bottom-width: 1px; font-size: 18px;">Platforms</p>
-      </a>
-      <a href="Friends.php">
-        <p class="hover-words" style="margin-bottom: 70px; border-bottom-style: solid; border-bottom-width: 1px; font-size: 18px;">Friends</p>
       </a>
     </div>
   </div>
