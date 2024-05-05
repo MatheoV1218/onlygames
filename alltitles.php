@@ -152,16 +152,16 @@
     column-gap: 20px;
     row-gap: 40px;">
          <div>
-          <img src="Class project onlygames/fortnite.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Fortnite</p>
+          <img src="Class project onlygames/demonsouls.jpg" style="width: 350px; height: 300px;">
+          <p class="game-title">Demon's Souls</p>
         </div>
         <div>
-          <img src="Class project onlygames/helldivers 2.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Helldivers 2</p>
+          <img src="Class project onlygames/minecraft.jpg" style="width: 350px; height: 300px;">
+          <p class="game-title">Minecraft</p>
         </div>
         <div>
-          <img src="Class project onlygames/sea of thieves.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Sea of Thieves</p>
+          <img src="Class project onlygames/rdr2.jpg" style="width: 350px; height: 300px;">
+          <p class="game-title">Red Dead Redemption 2</p>
         </div>
     </div>
 
@@ -175,31 +175,17 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Elden Ring: SOTET</p>
+      <img src="Class project onlygames/RL.jpg" style="width: 350px; height: 300px;">
+      <p class="game-title">Rocket League</p>
     </div>
     <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Frostpunk 2</p>
+      <img src="Class project onlygames/sunset.jpg" style="width: 350px; height: 300px;">
+      <p class="game-title">Sunset Overdrive</p>
     </div>
     <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Stellar Blade</p>
+      <img src="Class project onlygames/tekken.jpg" style="width: 350px; height: 300px;">
+      <p class="game-title">Tekken 8</p>
     </div>
-    </div>
-
-<div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightpink; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
     </div>
 
     <div style="
@@ -212,152 +198,17 @@
     column-gap: 20px;
     row-gap: 40px;">
     <div>
-      <img src="Class project onlygames/elden ring.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Elden Ring</p>
+      <img src="Class project onlygames/rainbow.jpg" style="width: 350px; height: 300px;">
+      <p class="game-title">Tom Clancy's Rainbow Six Siege</p>
     </div>
     <div>
-      <img src="Class project onlygames/GOW rag.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">God of War Ragnarok</p>
+      <img src="Class project onlygames/warhammer.jpg" style="width: 350px; height: 300px;">
+      <p class="game-title">Warhammer 40,000: Darktide</p>
     </div>
     <div>
-      <img src="Class project onlygames/palworld.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Palworld</p>
+      <img src="Class project onlygames/bauldersgate.jpg" style="width: 350px; height: 300px;">
+      <p class="game-title">Baldur's Gate III</p>
     </div>
-   
-   
-    </div>
-<div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-         <div>
-          <img src="Class project onlygames/fortnite.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Fortnite</p>
-        </div>
-        <div>
-          <img src="Class project onlygames/helldivers 2.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Helldivers 2</p>
-        </div>
-        <div>
-          <img src="Class project onlygames/sea of thieves.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Sea of Thieves</p>
-        </div>
-    </div>
-
-<div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Elden Ring: SOTET</p>
-    </div>
-    <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Frostpunk 2</p>
-    </div>
-    <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Stellar Blade</p>
-    </div>
-    </div>
-
-<div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightpink; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-    </div>
-
-    <div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-         <div>
-          <img src="Class project onlygames/fortnite.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Fortnite</p>
-        </div>
-        <div>
-          <img src="Class project onlygames/helldivers 2.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Helldivers 2</p>
-        </div>
-        <div>
-          <img src="Class project onlygames/sea of thieves.jpg" style="width: 350px; height: 300px;">
-          <p class="game-title">Sea of Thieves</p>
-        </div>
-    </div>
-
-<div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div>
-      <img src="Class project onlygames/elden ring shadow of eardtree.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Elden Ring: SOTET</p>
-    </div>
-    <div>
-      <img src="Class project onlygames/frostpunk 2.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Frostpunk 2</p>
-    </div>
-    <div>
-      <img src="Class project onlygames/stellar blade.jpg" style="width: 350px; height: 300px;">
-      <p class="game-title">Stellar Blade</p>
-    </div>
-    </div>
-
-<div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightpink; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-  </div>
-
-  <div style="
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightpink; height: 275px; width: 350px;">1fr</div>
-    <div style="background-color: lightblue; height: 275px; width: 350px;">1fr</div>
     </div>
   </body>
 </html>
